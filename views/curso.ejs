@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header bg-dark text-white text-center">
+    <h3><%= title %></h3>
+  </div>
+  <div class="card-body text-dark">
+    <div class="form-group">
+      <form  method="POST" action="/curso">
+        <label for="curso">Escoja el curso:</label>
+        <select name="curso" id="curso" class="form-control">
+          <option value="Java">Java</option>
+          <option value="PHP">PHP</option>
+          <option value=".NET">.NET</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Siguiente" class="btn btn-primary btn-block">
+      </form>
+    </div>
+  </div>
+</div>

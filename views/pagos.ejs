@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header bg-dark text-white text-center">
+    <h3><%= title %></h3>
+  </div>
+  <div class="card-body text-dark">
+    <div class="form-group">
+      <form  method="POST" action="/pagos">
+        <div class="container" style="padding-left: 10%;">
+          <input type="radio" class="form-check-input" name="pago" value="Tarjeta de crédito">
+          <label for="Efectivo">Tarjeta de crédito</label><br>
+          <input type="radio" class="form-check-input" name="pago" value="Efectivo">
+          <label for="Efectivo">Efectivo</label><br>
+          <button type="submit" class="btn btn-primary btn-block">Detalles</button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
